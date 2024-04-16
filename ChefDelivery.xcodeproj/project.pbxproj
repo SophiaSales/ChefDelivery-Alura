@@ -13,6 +13,9 @@
 		EC61DB302BC818D1006CFFD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC61DB2F2BC818D1006CFFD7 /* Preview Assets.xcassets */; };
 		EC61DB392BC825A7006CFFD7 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB382BC825A7006CFFD7 /* NavigationBar.swift */; };
 		EC61DB3C2BC8508F006CFFD7 /* OrderTypeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB3B2BC8508F006CFFD7 /* OrderTypeGridView.swift */; };
+		EC61DB3F2BC85C48006CFFD7 /* OrderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB3E2BC85C48006CFFD7 /* OrderType.swift */; };
+		EC61DB412BC85EE6006CFFD7 /* DataSourceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB402BC85EE6006CFFD7 /* DataSourceMock.swift */; };
+		EC61DB432BCDAE0C006CFFD7 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB422BCDAE0C006CFFD7 /* OrderTypeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		EC61DB2F2BC818D1006CFFD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC61DB382BC825A7006CFFD7 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		EC61DB3B2BC8508F006CFFD7 /* OrderTypeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeGridView.swift; sourceTree = "<group>"; };
+		EC61DB3E2BC85C48006CFFD7 /* OrderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderType.swift; sourceTree = "<group>"; };
+		EC61DB402BC85EE6006CFFD7 /* DataSourceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceMock.swift; sourceTree = "<group>"; };
+		EC61DB422BCDAE0C006CFFD7 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				EC61DB372BC8252D006CFFD7 /* App */,
+				EC61DB3D2BC85C02006CFFD7 /* Model */,
 				EC61DB362BC8250F006CFFD7 /* NavigationBar  */,
 				EC61DB3A2BC84FFA006CFFD7 /* GridView */,
 				EC61DB2C2BC818D1006CFFD7 /* Assets.xcassets */,
@@ -93,8 +100,18 @@
 			isa = PBXGroup;
 			children = (
 				EC61DB3B2BC8508F006CFFD7 /* OrderTypeGridView.swift */,
+				EC61DB422BCDAE0C006CFFD7 /* OrderTypeView.swift */,
 			);
 			path = GridView;
+			sourceTree = "<group>";
+		};
+		EC61DB3D2BC85C02006CFFD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC61DB3E2BC85C48006CFFD7 /* OrderType.swift */,
+				EC61DB402BC85EE6006CFFD7 /* DataSourceMock.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,7 +184,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC61DB3F2BC85C48006CFFD7 /* OrderType.swift in Sources */,
 				EC61DB2B2BC818CF006CFFD7 /* ContentView.swift in Sources */,
+				EC61DB412BC85EE6006CFFD7 /* DataSourceMock.swift in Sources */,
+				EC61DB432BCDAE0C006CFFD7 /* OrderTypeView.swift in Sources */,
 				EC61DB3C2BC8508F006CFFD7 /* OrderTypeGridView.swift in Sources */,
 				EC61DB292BC818CF006CFFD7 /* ChefDeliveryApp.swift in Sources */,
 				EC61DB392BC825A7006CFFD7 /* NavigationBar.swift in Sources */,

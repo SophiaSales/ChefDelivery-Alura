@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SOUiD.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>37</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>5640EF0E58DEF34981B4C3A88B9AB0EDE04385E2</string>
+				<key>dateExpires</key>
+				<string>09/05/25</string>
+				<key>type</key>
+				<string>Cloud Managed iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>0.12.0</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>5640EF0E58DEF34981B4C3A88B9AB0EDE04385E2</string>
+						<key>dateExpires</key>
+						<string>09/05/25</string>
+						<key>type</key>
+						<string>Cloud Managed iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>hermes.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>AAR5354LHH</string>
+						<key>name</key>
+						<string>Fundação CPqD Centro de Pesquisa e Desenvolvimento em Telecomunicações</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>0.12.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>AAR5354LHH.br.com.cpqd.souid.SOUIDWallet</string>
+				<key>com.apple.developer.associated-domains</key>
+				<array>
+					<string>applinks:blockchain.cpqd.com.br</string>
+					<string>applinks:id.cpqd.com.br</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>AAR5354LHH</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>SOUiD.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>9902f609-399a-4ea0-b115-a36cc5ee3fc3</string>
+				<key>dateExpires</key>
+				<string>13/12/24</string>
+				<key>name</key>
+				<string>iOS Team Inhouse Provisioning Profile: br.com.cpqd.souid.SOUIDWallet</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>AAR5354LHH</string>
+				<key>name</key>
+				<string>Fundação CPqD Centro de Pesquisa e Desenvolvimento em Telecomunicações</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>0.0.37</string>
+		</dict>
+	</array>
+</dict>
+</plist>
