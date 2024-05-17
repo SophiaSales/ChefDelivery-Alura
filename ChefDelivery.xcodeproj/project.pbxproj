@@ -23,6 +23,7 @@
 		ECA281D42BF2A064009A6BD0 /* StoreDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA281D32BF2A064009A6BD0 /* StoreDetailView.swift */; };
 		ECA343032BF3E7C70018E23B /* StoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA343022BF3E7C70018E23B /* StoreType.swift */; };
 		ECA343052BF3EA770018E23B /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA343042BF3EA760018E23B /* ProductType.swift */; };
+		ECC40BEE2BF7ECB30061E50F /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC40BED2BF7ECB30061E50F /* Double+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		ECA281D32BF2A064009A6BD0 /* StoreDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreDetailView.swift; sourceTree = "<group>"; };
 		ECA343022BF3E7C70018E23B /* StoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreType.swift; sourceTree = "<group>"; };
 		ECA343042BF3EA760018E23B /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		ECC40BED2BF7ECB30061E50F /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		EC61DB272BC818CF006CFFD7 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				ECC40BEC2BF7EC920061E50F /* Extension */,
 				EC61DB372BC8252D006CFFD7 /* App */,
 				EC61DB3D2BC85C02006CFFD7 /* Model */,
 				EC61DB362BC8250F006CFFD7 /* NavigationBar  */,
@@ -151,6 +154,14 @@
 			path = StoreView;
 			sourceTree = "<group>";
 		};
+		ECC40BEC2BF7EC920061E50F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ECC40BED2BF7ECB30061E50F /* Double+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +236,7 @@
 				ECA343052BF3EA770018E23B /* ProductType.swift in Sources */,
 				EC61DB2B2BC818CF006CFFD7 /* ContentView.swift in Sources */,
 				EC61DB412BC85EE6006CFFD7 /* DataSourceMock.swift in Sources */,
+				ECC40BEE2BF7ECB30061E50F /* Double+.swift in Sources */,
 				EC61DB462BCF0913006CFFD7 /* CaroselItemView.swift in Sources */,
 				EC61DB432BCDAE0C006CFFD7 /* OrderTypeView.swift in Sources */,
 				EC61DB4D2BCF422D006CFFD7 /* StoreItemView.swift in Sources */,
