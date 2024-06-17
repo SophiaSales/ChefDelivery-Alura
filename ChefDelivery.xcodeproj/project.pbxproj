@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EC3EC04A2C10E95D00B8DBA5 /* ProductDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EC0492C10E95D00B8DBA5 /* ProductDetailHeaderView.swift */; };
 		EC3EC04C2C10EA5D00B8DBA5 /* ProductDetailQuantityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EC04B2C10EA5D00B8DBA5 /* ProductDetailQuantityView.swift */; };
+		EC3EC04F2C10F2C100B8DBA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3EC04E2C10F2C100B8DBA5 /* HomeView.swift */; };
 		EC61DB292BC818CF006CFFD7 /* ChefDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB282BC818CF006CFFD7 /* ChefDeliveryApp.swift */; };
 		EC61DB2B2BC818CF006CFFD7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC61DB2A2BC818CF006CFFD7 /* ContentView.swift */; };
 		EC61DB2D2BC818D1006CFFD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC61DB2C2BC818D1006CFFD7 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		EC3EC0492C10E95D00B8DBA5 /* ProductDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailHeaderView.swift; sourceTree = "<group>"; };
 		EC3EC04B2C10EA5D00B8DBA5 /* ProductDetailQuantityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailQuantityView.swift; sourceTree = "<group>"; };
+		EC3EC04E2C10F2C100B8DBA5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EC61DB252BC818CF006CFFD7 /* ChefDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChefDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC61DB282BC818CF006CFFD7 /* ChefDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChefDeliveryApp.swift; sourceTree = "<group>"; };
 		EC61DB2A2BC818CF006CFFD7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC3EC04D2C10F2A000B8DBA5 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EC3EC04E2C10F2C100B8DBA5 /* HomeView.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
 		EC61DB1C2BC818CF006CFFD7 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +99,7 @@
 		EC61DB272BC818CF006CFFD7 /* ChefDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				EC3EC04D2C10F2A000B8DBA5 /* HomeView */,
 				ECC40BF02BF7F4530061E50F /* ProductView */,
 				ECC40BEC2BF7EC920061E50F /* Extension */,
 				EC61DB372BC8252D006CFFD7 /* App */,
@@ -271,6 +282,7 @@
 				ECC40BF52BF7F56A0061E50F /* ProductDetailView.swift in Sources */,
 				ECA343052BF3EA770018E23B /* ProductType.swift in Sources */,
 				EC61DB2B2BC818CF006CFFD7 /* ContentView.swift in Sources */,
+				EC3EC04F2C10F2C100B8DBA5 /* HomeView.swift in Sources */,
 				EC61DB412BC85EE6006CFFD7 /* DataSourceMock.swift in Sources */,
 				EC3EC04C2C10EA5D00B8DBA5 /* ProductDetailQuantityView.swift in Sources */,
 				ECC40BEE2BF7ECB30061E50F /* Double+.swift in Sources */,
