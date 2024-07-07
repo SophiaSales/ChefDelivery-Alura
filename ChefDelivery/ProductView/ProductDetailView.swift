@@ -13,31 +13,53 @@ struct ProductDetailView: View {
     
     @State private var productQuantity = 1
     
+    var service = HomeService()
+    
     var body: some View {
         
         ProductDetailHeaderView(product: product)
         
         Spacer()
         
-        ProductDetailQuantityView(productQuantity:
-                                    $productQuantity)
+        ProductDetailQuantityView(productQuantity: $productQuantity)
         
         Spacer()
         
-        ProductDetailButtonView()
+        ProductDetailButtonView {
+            Task {
+                await confirmOrder()
+            }
+        }
 
+    }
+    
+    func confirmOrder() async {
+        do {
+            let result = try await service.confirmOrder(product: product)
+            switch result {
+            case .success(let message):
+                print(message)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        } catch {
+            print(error.localizedDescription)
+        }
     }
 }
 
 struct ProductDetailButtonView: View {
+    
+    var onButtonPress: () -> Void
+    
     var body: some View {
         Button{
-            print("Botao Precionado")
+            onButtonPress()
         }label: {
             HStack{
                 Image(systemName: "cart")
                 
-                Text("Adiconar ao carrinho")
+                Text("Enviar pedido")
             }
             .padding(.horizontal, 32)
             .padding(.vertical,16)
